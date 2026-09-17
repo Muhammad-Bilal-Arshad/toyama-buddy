@@ -8,6 +8,9 @@ Toyama Buddy answers tourism questions using a curated knowledge base of Toyama 
 
 **Example:** ask "I want to see the Alpine Route tomorrow, what should I do?" and the agent checks the live forecast for the Murodo mountain area before answering, rather than guessing.
 
+## DEMO
+
+https://www.loom.com/share/9b9d7f7d0d3b4d528fe978344150c8d2
 ## Tech stack
 
 - **LLM:** Google Gemini (`gemini-3.1-flash-lite`), via the `google-genai` Python SDK
@@ -45,3 +48,5 @@ We compared plain Gemini (no RAG, no tools) against the full agent on 6 test que
 ## Team
 
 - Muhammad Bilal Arshad
+
+
