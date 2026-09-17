@@ -35,3 +35,19 @@ We compared plain Gemini (no RAG, no tools) against the full agent on 6 test que
 4. Run all cells (**Runtime → Run all**). The last cell launches a Gradio chat interface with a public `gradio.live` link.
 
 ## Repository contents
+toyama_buddy.ipynb - full notebook: RAG setup, agent, evaluation, Gradio UI
+evaluation.md - full text comparison: plain LLM vs. agent, 6 test questions
+evaluation_chart.png - evaluation results chart
+slides/ - final presentation
+
+
+## Limitations & future work
+
+- Knowledge base is currently 14 manually written documents; a production version would auto-update from official tourism sites
+- One test question got correct live weather data but the reply omitted the source citation — a prompt-tuning area we identified during evaluation
+- Runs on the free Gemini API tier (rate-limited); production use would need a paid tier
+- Future additions: photo input for reading menus/signs, persistent memory of visitor preferences across sessions, LoRA fine-tuning for tone
+
+## Team
+
+- Muhammad Bilal Arshad
