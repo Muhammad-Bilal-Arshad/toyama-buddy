@@ -34,12 +34,6 @@ We compared plain Gemini (no RAG, no tools) against the full agent on 6 test que
 3. In Colab, click the 🔑 (Secrets) icon in the left sidebar → **Add new secret** → name it `GEMINI_API_KEY` → paste your key → enable **Notebook access**.
 4. Run all cells (**Runtime → Run all**). The last cell launches a Gradio chat interface with a public `gradio.live` link.
 
-## Repository contents
-toyama_buddy.ipynb - full notebook: RAG setup, agent, evaluation, Gradio UI
-evaluation.md - full text comparison: plain LLM vs. agent, 6 test questions
-evaluation_chart.png - evaluation results chart
-slides/ - final presentation
-
 
 ## Limitations & future work
 
