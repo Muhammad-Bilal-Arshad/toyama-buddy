@@ -3,7 +3,7 @@
 A multilingual travel assistant for foreign visitors to Toyama, built with an LLM, RAG, and an Agent.
 
 ## What it does
-(fill in after building)
+(working on it)
 
 ## Tech stack
 - Dify (LLM orchestration, RAG, Agent)
