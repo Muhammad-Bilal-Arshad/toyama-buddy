@@ -23,7 +23,7 @@ https://www.loom.com/share/9b9d7f7d0d3b4d528fe978344150c8d2
 
 ## Evaluation
 
-We compared plain Gemini (no RAG, no tools) against the full agent on 6 test questions. Full results are in [`evaluation.md`](./evaluation.md) and [`evaluation_chart.png`](./evaluation_chart.png).
+We compared plain Gemini (no RAG, no tools) against the full agent on 6 test questions. Full results are in [`evaluation.md`](./evaluation.md)
 
 **Headline result:** asked "What is today's weather in Toyama?", plain Gemini invented a date and fabricated weather conditions. Toyama Buddy pulled the real forecast from a live API call.
 
